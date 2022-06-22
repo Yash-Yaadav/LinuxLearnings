@@ -1,0 +1,717 @@
+[root@linuxvm ~]# history 
+
+    1  cd /var/log 
+
+    2  ls 
+
+    3  cat secure 
+
+    4  tail -f secure 
+
+    5  history 
+
+    6  vi newfile 
+
+    7  cat newfile 
+
+    8  vi newfile 
+
+    9  cat newfile 
+
+   10  vi /etc/ssh/sshd_config 
+
+   11  adduser john 
+
+   12  cat /etc/group 
+
+   13  useradd maya 
+
+   14  passwd john 
+
+   15  visudo 
+
+   16  service sshd restart 
+
+   17  history 
+
+   18  visudo 
+
+   19  cd /etc/ssh/ 
+
+   20  ls 
+
+   21  pwd 
+
+   22  cat sshd_config 
+
+   23  cat /etc/group 
+
+   24  cat /etc/cd /root 
+
+   25  cd /root 
+
+   26  yum install maven 
+
+   27  wget https://dlcdn.apache.org/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.tar.gz 
+
+   28  ls 
+
+   29  ln -s apache-maven-3.8.5-bin.tar.gz maven.tar.gz 
+
+   30  ls 
+
+   31  tar -zxv maven.tar.gz 
+
+   32  tar -zxvf maven.tar.gz 
+
+   33  ls 
+
+   34  history 
+
+   35  docker 
+
+   36  ansible 
+
+   37  kubectl 
+
+   38  touch testfile.txt 
+
+   39  ln -s testfile.txt linkfile.txt 
+
+   40  ls 
+
+   41  ls -l linkfile.txt 
+
+   42  rm linkfile.txt 
+
+   43  unlink linkfile.txt 
+
+   44  ls 
+
+   45  history 
+
+   46  ls 
+
+   47  ls -la 
+
+   48  ls 
+
+   49  ls -la 
+
+   50  chmod 777 testfile.txt 
+
+   51  ls -la 
+
+   52  chmod 700 testfile.txt 
+
+   53  ls -la 
+
+   54  chmod g=x testfile.txt 
+
+   55  ls -la 
+
+   56  chmod og= testfile.txt 
+
+   57  ls -la 
+
+   58  chmod u=rw,g=r,o= testfile.txt 
+
+   59  ls -la 
+
+   60  history 
+
+   61  touch test 
+
+   62  ls -la 
+
+   63  adduser jerry 
+
+   64  groupadd jenkins 
+
+   65  adduser jerry jenkins 
+
+   66  usermod -G jenkins jerry 
+
+   67  cat /etc/group 
+
+   68  addgroup docker 
+
+   69  groupadd docker 
+
+   70  usermod -G jenkins,docker jerry 
+
+   71  cat /etc/group 
+
+   72  gpasswd -d jerry docker 
+
+   73  history 
+
+   74  ls -la 
+
+   75  mkdir tomcat 
+
+   76  ls -la 
+
+   77  adduser tomcat 
+
+   78  groupadd tomcat 
+
+   79  chown tomcat:tomcat tomcat 
+
+   80  ls -la 
+
+   81  history 
+
+   82  man groupadd 
+
+   83  passwd tomcat 
+
+   84  usermod -aG tomcat sudo 
+
+   85  usermod -aG sudo tomcat 
+
+   86  usermod -aG wheel tomcat 
+
+   87  visudo 
+
+   88  cat /etc/group 
+
+   89  history 
+
+   90  clear 
+
+   91  find . -name test 
+
+   92  find . -iname Test 
+
+   93  find . -iname ".txt" 
+
+   94  find . -name ".txt" 
+
+   95  find . -name "*.txt" 
+
+   96  find / -type f -name test 
+
+   97  find / -type d -name test 
+
+   98  find / -type l -name test 
+
+   99  file / -user tomcat 
+
+  100  file / -user john 
+
+  101  locate -r test 
+
+  102  yum install mlocate 
+
+  103  updatedb 
+
+  104  locate -r test 
+
+  105  history 
+
+  106  clear 
+
+  107  echo "Jerry seinfield is the main character in the show queen" > jeery.txt 
+
+  108  cat jeery.txt 
+
+  109  echo "jerry show wa create in 1989" >> jerry.txt 
+
+  110  cat jerry.txt 
+
+  111  history 
+
+  112  echo "jerry show wa create in 1989" >> jeery.txt \ 
+
+  113  echo "jerry show wa create in 1989" >> jeery.txt 
+
+  114  cat jeery.txt 
+
+  115  history 
+
+  116  clear 
+
+  117  ls -l 
+
+  118  ls -l > listing 
+
+  119  ls 
+
+  120  cat listing 
+
+  121  pwd > findpath 
+
+  122  cat findpath 
+
+  123  history 
+
+  124  cd /etc 
+
+  125  more 
+
+  126  tail -f 
+
+  127  cd /var/log 
+
+  128  ls 
+
+  129  cat messages 
+
+  130  cat messages | more 
+
+  131  cat messages | tail -f 
+
+  132  history 
+
+  133  exit 
+
+  134  exitr 
+
+  135  exit 
+
+  136  ls 
+
+  137  exit 
+
+  138  yum install finger 
+
+  139  clear 
+
+  140  exit 
+
+  141  adduser spider 
+
+  142  passwd spider 
+
+  143  history 
+
+  144  clear 
+
+  145  wall 
+
+  146  writer spider 
+
+  147  write spider 
+
+  148  id 
+
+  149  users 
+
+  150  history 
+
+  151  clear 
+
+  152  ls 
+
+  153  wall testfile.txt 
+
+  154  date 
+
+  155  time 
+
+  156  uptime 
+
+  157  uname 
+
+  158  uname -a 
+
+  159  which 
+
+  160  cal 
+
+  161  bc 
+
+  162  s 
+
+  163  ps 
+
+  164  ps -a 
+
+  165  ps aux 
+
+  166  top 
+
+  167  history 
+
+  168  date 
+
+  169  which pwd 
+
+  170  which java 
+
+  171  yum install openjdk 
+
+  172  javac 
+
+  173  yum install openjdk-11 
+
+  174  yum install java-1.8.0-openjdk 
+
+  175  which java 
+
+  176  history 
+
+[root@linuxvm ~]# echo $JAVA_HOME 
+
+ 
+
+[root@linuxvm ~]# history 
+
+    1  cd /var/log 
+
+    2  ls 
+
+    3  cat secure 
+
+    4  tail -f secure 
+
+    5  history 
+
+    6  vi newfile 
+
+    7  cat newfile 
+
+    8  vi newfile 
+
+    9  cat newfile 
+
+   10  vi /etc/ssh/sshd_config 
+
+   11  adduser john 
+
+   12  cat /etc/group 
+
+   13  useradd maya 
+
+   14  passwd john 
+
+   15  visudo 
+
+   16  service sshd restart 
+
+   17  history 
+
+   18  visudo 
+
+   19  cd /etc/ssh/ 
+
+   20  ls 
+
+   21  pwd 
+
+   22  cat sshd_config 
+
+   23  cat /etc/group 
+
+   24  cat /etc/cd /root 
+
+   25  cd /root 
+
+   26  yum install maven 
+
+   27  wget https://dlcdn.apache.org/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.tar.gz 
+
+   28  ls 
+
+   29  ln -s apache-maven-3.8.5-bin.tar.gz maven.tar.gz 
+
+   30  ls 
+
+   31  tar -zxv maven.tar.gz 
+
+   32  tar -zxvf maven.tar.gz 
+
+   33  ls 
+
+   34  history 
+
+   35  docker 
+
+   36  ansible 
+
+   37  kubectl 
+
+   38  touch testfile.txt 
+
+   39  ln -s testfile.txt linkfile.txt 
+
+   40  ls 
+
+   41  ls -l linkfile.txt 
+
+   42  rm linkfile.txt 
+
+   43  unlink linkfile.txt 
+
+   44  ls 
+
+   45  history 
+
+   46  ls 
+
+   47  ls -la 
+
+   48  ls 
+
+   49  ls -la 
+
+   50  chmod 777 testfile.txt 
+
+   51  ls -la 
+
+   52  chmod 700 testfile.txt 
+
+   53  ls -la 
+
+   54  chmod g=x testfile.txt 
+
+   55  ls -la 
+
+   56  chmod og= testfile.txt 
+
+   57  ls -la 
+
+   58  chmod u=rw,g=r,o= testfile.txt 
+
+   59  ls -la 
+
+   60  history 
+
+   61  touch test 
+
+   62  ls -la 
+
+   63  adduser jerry 
+
+   64  groupadd jenkins 
+
+   65  adduser jerry jenkins 
+
+   66  usermod -G jenkins jerry 
+
+   67  cat /etc/group 
+
+   68  addgroup docker 
+
+   69  groupadd docker 
+
+   70  usermod -G jenkins,docker jerry 
+
+   71  cat /etc/group 
+
+   72  gpasswd -d jerry docker 
+
+   73  history 
+
+   74  ls -la 
+
+   75  mkdir tomcat 
+
+   76  ls -la 
+
+   77  adduser tomcat 
+
+   78  groupadd tomcat 
+
+   79  chown tomcat:tomcat tomcat 
+
+   80  ls -la 
+
+   81  history 
+
+   82  man groupadd 
+
+   83  passwd tomcat 
+
+   84  usermod -aG tomcat sudo 
+
+   85  usermod -aG sudo tomcat 
+
+   86  usermod -aG wheel tomcat 
+
+   87  visudo 
+
+   88  cat /etc/group 
+
+   89  history 
+
+   90  clear 
+
+   91  find . -name test 
+
+   92  find . -iname Test 
+
+   93  find . -iname ".txt" 
+
+   94  find . -name ".txt" 
+
+   95  find . -name "*.txt" 
+
+   96  find / -type f -name test 
+
+   97  find / -type d -name test 
+
+   98  find / -type l -name test 
+
+   99  file / -user tomcat 
+
+  100  file / -user john 
+
+  101  locate -r test 
+
+  102  yum install mlocate 
+
+  103  updatedb 
+
+  104  locate -r test 
+
+  105  history 
+
+  106  clear 
+
+  107  echo "Jerry seinfield is the main character in the show queen" > jeery.txt 
+
+  108  cat jeery.txt 
+
+  109  echo "jerry show wa create in 1989" >> jerry.txt 
+
+  110  cat jerry.txt 
+
+  111  history 
+
+  112  echo "jerry show wa create in 1989" >> jeery.txt \ 
+
+  113  echo "jerry show wa create in 1989" >> jeery.txt 
+
+  114  cat jeery.txt 
+
+  115  history 
+
+  116  clear 
+
+  117  ls -l 
+
+  118  ls -l > listing 
+
+  119  ls 
+
+  120  cat listing 
+
+  121  pwd > findpath 
+
+  122  cat findpath 
+
+  123  history 
+
+  124  cd /etc 
+
+  125  more 
+
+  126  tail -f 
+
+  127  cd /var/log 
+
+  128  ls 
+
+  129  cat messages 
+
+  130  cat messages | more 
+
+  131  cat messages | tail -f 
+
+  132  history 
+
+  133  exit 
+
+  134  exitr 
+
+  135  exit 
+
+  136  ls 
+
+  137  exit 
+
+  138  yum install finger 
+
+  139  clear 
+
+  140  exit 
+
+  141  adduser spider 
+
+  142  passwd spider 
+
+  143  history 
+
+  144  clear 
+
+  145  wall 
+
+  146  writer spider 
+
+  147  write spider 
+
+  148  id 
+
+  149  users 
+
+  150  history 
+
+  151  clear 
+
+  152  ls 
+
+  153  wall testfile.txt 
+
+  154  date 
+
+  155  time 
+
+  156  uptime 
+
+  157  uname 
+
+  158  uname -a 
+
+  159  which 
+
+  160  cal 
+
+  161  bc 
+
+  162  s 
+
+  163  ps 
+
+  164  ps -a 
+
+  165  ps aux 
+
+  166  top 
+
+  167  history 
+
+  168  date 
+
+  169  which pwd 
+
+  170  which java 
+
+  171  yum install openjdk 
+
+  172  javac 
+
+  173  yum install openjdk-11 
+
+  174  yum install java-1.8.0-openjdk 
+
+  175  which java 
+
+  176  history 
+
+  177  echo $JAVA_HOME 
+
+  178  history 
+
+[root@linuxvm ~]# 
